@@ -1,4 +1,3 @@
-import React from 'react';
 import { createStyles, Theme, makeStyles } from '@material-ui/core/styles';
 import AppBar from '@material-ui/core/AppBar';
 import Toolbar from '@material-ui/core/Toolbar';
@@ -23,14 +22,12 @@ export default function BottomAppBar() {
   const classes = useStyles();
 
   return (
-    <React.Fragment>
-      <AppBar position="fixed" style={{ backgroundColor: "#44bc84" }} className={classes.appBar}>
-        <Toolbar>
-          <div className={classes.grow} />
-          <MailOutlineIcon />
-          <div className={classes.text}>genshi0916@gmail.com</div>
-        </Toolbar>
-      </AppBar>
-    </React.Fragment>
+    <AppBar position="fixed" style={{ backgroundColor: "#44bc84" }} className={classes.appBar}>
+      <Toolbar>
+        <div className={classes.grow} />
+        <MailOutlineIcon />
+        <div className={classes.text}>genshi0916@gmail.com</div>
+      </Toolbar>
+    </AppBar>
   );
 }
