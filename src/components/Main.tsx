@@ -1,32 +1,32 @@
 import React from 'react';
 import {makeStyles} from '@material-ui/core/styles';
 
-
-
 const useStyles = makeStyles({
   box:{
     position:"relative",
     border:"1px solid #000",
-    borderRadius:5,
-    width:140,
-    height:62
+    borderRadius:7.5,
+    width:210,
+    height:93
   },
   box_text:{
     position: "relative",
-    left: 60
+    left: 90,
+    fontSize:22
   },
 });
 
+
+
 export default function Main() {
   const classes = useStyles();
-
   return (
     <div
       style={{
         position: 'absolute',
-        left: '50%',
-        top: '50%',
-        transform: 'translate(-50%, -50%)'
+        left: '30%',
+        top: '45%',
+        transform: 'translate(-50%, 0%)'
       }}
     >
       <div className={classes.box}>
