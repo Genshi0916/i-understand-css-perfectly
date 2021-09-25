@@ -2,14 +2,14 @@
 
 軽率にCSSを完全に理解してしまったWebサイト
 
-url : [https://genshi0916.github.io/i-understand-css-perfectly/](https://genshi0916.github.io/i-understand-css-perfectly/)
+url : [https://addtobasic.github.io/i-understand-css-perfectly/](https://addtobasic.github.io/i-understand-css-perfectly/)
 # Setup
- 
+
 ```bash
-$ git clone https://github.com/Genshi0916/i-understand-css-perfectly.git
+$ git clone https://github.com/addtobasic/i-understand-css-perfectly.git
 $ cd i-understand-css-perfectly
 $ yarn install
-``` 
+```
 # Start
 
 ```bash

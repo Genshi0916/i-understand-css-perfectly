@@ -26,7 +26,7 @@ export default function BottomAppBar() {
       <Toolbar>
         <div className={classes.grow} />
         <MailOutlineIcon />
-        <div className={classes.text}>genshi0916@gmail.com</div>
+        <div className={classes.text}>addtobasic@gmail.com</div>
       </Toolbar>
     </AppBar>
   );
